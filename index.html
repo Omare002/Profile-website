@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omare-Ogah Oghenerume - Portfolio</title>
+    <link rel="stylesheet" href="media.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="container">
+        <div class="logo">Omare-Ogah Oghenerume</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Hello, I'm Oghenerume</h1>
+        <p>Web Developer & Designer</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+      </div>
+    </section>
+    <!--Hamburger menu-->
+    <nav id="hamburger-nav">
+      <div class="logo">Omare-Ogah Oghenerume</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links"></div>
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Who I Am</h3>
+            <p>
+              I'm a passionate web developer with experience in creating
+              beautiful, functional websites. I love turning ideas into reality
+              through code and design.
+            </p>
+            <p>
+              With a background in computer science , I
+              strive to create user-friendly experiences that make a difference.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              reading tech blogs, or working on personal projects.
+            </p>
+          </div>
+        <!--<div class="about-image">
+            <div class="profile-img">Photo</div>
+        </div>
+        </div>-->
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Backend Development</h3>
+            <p>Java</p>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 30%"></div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">Lana del rey music player </div>
+            <div class="project-info">
+              <h3>Lana del rey music player</h3>
+              <p>
+                A Lana del rey music player built using Html, CSS and Javascript
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/Omare002/Lana-del-rey.git">GitHub</a>
+              </div>
+            </div>
+          </div>
+         <!-- <div class="project-card">
+        <div class="project-image">Project Image</div>
+            <div class="project-info">
+              <h3>Project Name 2</h3>
+              <p>
+                Description of  project. What technologies were used and
+                what problems it solves.
+              </p>
+              <div class="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">Project Image</div>
+            <div class="project-info">
+              <h3>Project Name 3</h3>
+              <p>
+                Description of  project. What technologies were used and
+                what problems it solves.
+              </p>
+              <div class="project-links">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: omareogahrume@gmail.com</p>
+            <p>Location: Lagos, Nigeria</p>
+            <div class="social-links">
+              <a href="#">LinkedIn</a>
+              <a href="https://github.com/Omare002/Lana-del-rey.git">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Omare-Ogah Oghenerume. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
